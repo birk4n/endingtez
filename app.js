@@ -6,7 +6,6 @@ const io = require('socket.io')(http);
 const server=app.listen(80,'207.154.192.163');
 const logger = require('winston');
 console.log("port 80 207.154.192.163 dinleniyor");
-const logger = require('winston');
 
 
 const nsp=io.of('/classes');
