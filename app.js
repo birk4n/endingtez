@@ -93,6 +93,6 @@ io.of("/voice").on("connection", (socket) => {
 
 
 
-http.listen(port, () => console.log('Dinlenen port: ' + port));
+
 
 //second port
